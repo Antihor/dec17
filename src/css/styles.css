@@ -1,18 +1,48 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.js-form {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.js-more{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.js-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.card{
+  flex-basis: calc(100% / 5);
+  border: 2px solid teal;
+  box-shadow: 5px 5px 5px teal;
+  border-radius: 8px;
+  padding: 8px;
+}
+.card-bottom{
+  text-align: center;
+  display: flex;
+  font-size: small;
+}
+.js-target{
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    box-shadow: 5px 5px 5px teal;
+}
+.hidden {
+  display: none;
+}
